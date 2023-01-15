@@ -1,0 +1,4 @@
+/venv
+/.idea
+**/pycache/
+/path/to/vacancies_with_skills.csv
