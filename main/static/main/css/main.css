@@ -1,0 +1,126 @@
+aside {
+    float: left;
+    background: #181818;
+    width 20%;
+    padding: 2%;
+    color
+    border-right: 5px solid #4d4d4d;
+    color: white;
+    margin-right: 25px;
+}
+
+aside .topbar{
+    padding-left:50px;
+    padding-right:100px;
+}
+
+aside img {
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -40px;
+    left: 5px;
+}
+
+aside ul {
+    list-style: none;
+    padding-right:30px;
+    margin-left:-50px;
+}
+
+aside ul li {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 25px;
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    bottom: -6px;
+}
+
+aside a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+     color: #ffc4e4;
+     text-decoration: none;
+}
+
+.horra{
+    background: #ffc4e4;
+    box-shadow: 3px 0 7px rgba(0,0,0,.3);
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.second {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.home_img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.topbar {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.topbar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+
+.topbar a:hover {
+    color: #f1f1f1;
+}
+
+
+.main {
+    margin-left: 400px;
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .topbar {padding-top: 15px;}
+    .topbar a {font-size: 18px;}
+}
+
+.content {
+    margin-left: 500px;
+}
